@@ -48,8 +48,8 @@ while True:
     if(savexml==True):
        ok, frame1 = cap.read()
 
-       imagename=r'D:\Data set\Dataset\Images\img_test{:>05}.jpg'.format(i)
-       filename=r'D:\Data set\Dataset\XML\img_test{:>05}.xml'.format(i)
+       imagename=r'Datasets/Images/img_test{:>05}.jpg'.format(i)
+       filename=r'Datasets/XML/img_test{:>05}.xml'.format(i)
        cv2.imwrite(imagename,frame1)
        size=frame1.shape
        CreateXML(str(p1[0]),str(p1[1]),str(p2[0]),str(p2[1]),filename,imagename,str(size))
