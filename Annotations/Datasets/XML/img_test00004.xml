@@ -1,0 +1,1 @@
+<annotation><imagename>Datasets/Images/img_test00004.jpg</imagename><filename>Datasets/XML/img_test00004.xml</filename><frame_size><width>480</width><height> 640</height><channel>3</channel></frame_size><object><name>BOH</name><dimensions><Xmin>198</Xmin><Ymin>60</Ymin><Xmax>594</Xmax><Ymax>407</Ymax></dimensions></object></annotation>
