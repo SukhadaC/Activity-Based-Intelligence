@@ -3,14 +3,14 @@ import shutil #to move your files to other locations in os
 import glob #matiching a specified pathname
 
 
-filename=glob.glob(r"D:\Data set\Dataset\XML_\*")
+filename=glob.glob(r"Datasets/Combined/*")
 #annote=['jpg','xml'] #creating list with filetype
 
 image=['.jpg']
 label=['.xml']
 
-jpglocate=r'D:\Data set\Dataset\Images_annotated'
-xmllocate=r'D:\Data set\Dataset\XML_annotated'
+jpglocate=r'Dataset/Images_annotated'
+xmllocate=r'Data set/Dataset/XML_annotated'
 
 for file in filename:
     #print(os.path.splitext(file)[1])
